@@ -25,6 +25,7 @@ body{
 .container{
     margin: 30px auto;
     width: 350px;
+    text-align: center;
 }
 
 #balance{
@@ -32,6 +33,11 @@ body{
     letter-spacing: 1px;
     margin: 0;
     color: #2e75cc;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline double #2e75cc;
 }
 
 h3{
@@ -109,14 +115,20 @@ input[type="text"], input[type="number"]{
 
 .transactions li.plus {
     border-right: 5px solid #2ecc71;
+    background-color: rgb(46, 204, 113, .2);
+    color: #2e7571;
+
 }
 
 .transactions li.minus{
     border-right: 5px solid #c0392b;
+    background-color: rgb(192, 57, 43,.2);
+    color: #c0392b;
 }
 
 .btn{
     cursor: pointer;
+    border-radius: 3px;
     background-color: #9c88ff;
     box-shadow: var(--box-shadow);
     color: #fff;
@@ -134,11 +146,15 @@ input[type="text"], input[type="number"]{
 
 .delete-btn {
     cursor: pointer;
+    width: 1.3em;
+    height: 1.3em;
+    line-height: 1.3em;
+    vertical-align: middle;
+    border-radius: 5px 0 0 5px;
     background-color: #e74c3c;
     border: 0;
     color: #fff;
     font-size: 1.25em;
-    line-height: 1.25em;
     padding: 2px 5px;
     position: absolute;
     top: 50%;
